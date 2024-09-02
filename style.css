@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+.header {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 43.57px;
+}
+
+.card {
+    width: 650px;
+    height: 900px;
+    border: 1px solid #DEDBDB;
+    border-radius: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 65px;
+}
+
+.content-exet {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29.05px;
+    color: #F0400F;
+}
+
+.h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    color: #0E0D5D;
+    margin-top: 100px;
+
+}
+
+.main {
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    margin-top: 40px;
+}
+
+.main_text p {
+    color: #757575;
+    margin: 18px 42px;
+
+}
+
+.main_text {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    color: black;
+    display: flex;
+}
+
+.main_text2 {
+    width: 255px;
+    height: 54px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 8px 11px;
+}
+
+.main_text2 p {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    color: black;
+    margin: 9px 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    color: #757575B2;
+    padding-left: 51px;
+    margin-top: 39px;
+
+}
+
+.header_content {
+    margin-top: 46px;
+}
+
+.p1 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    color: #000000A3;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.btn {
+    width: 202px;
+    height: 67px;
+    border-radius: 20px;
+    background-color: #F69E86;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    color: white;
+    margin-top: 48px;
+    margin-left: 326px;
+    padding-left: 13px;
+
+}
